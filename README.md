@@ -1,2 +1,2 @@
-# indigo-ui-elements
+# indago-ui-elements
 Collection of useful UI elements.
