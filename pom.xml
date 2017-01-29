@@ -5,10 +5,10 @@
 		http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
- 	<parent>
-		<groupId>org.scijava</groupId>
-		<artifactId>pom-scijava</artifactId>
-		<version>9.3.0</version>
+	<parent>
+		<groupId>sc.fiji</groupId>
+		<artifactId>pom-indago</artifactId>
+		<version>1.0.3-SNAPSHOT</version>
 	</parent>
  
 	<groupId>com.indago</groupId>
@@ -44,8 +44,22 @@
 			<id>jug</id>
 			<name>Florian Jug</name>
 			<email>florian.jug@gmail.com</email>
+			<url>http://www.myerslab.mpi-cbg.de</url>
 			<organization>MPI-CBG</organization>
-			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<organizationUrl>http://www.mpi-cbg.de/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>tpietzsch</id>
+			<name>Tobias Pietzsch</name>
+			<email>pietzsch@mpi-cbg.de</email>
+			<url />
+			<organization>MPI-CBG</organization>
+			<organizationUrl>http://www.mpi-cbg.de/</organizationUrl>
 			<roles>
 				<role>architect</role>
 				<role>developer</role>
