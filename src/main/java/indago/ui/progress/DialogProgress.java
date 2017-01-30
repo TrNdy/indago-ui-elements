@@ -152,13 +152,18 @@ public class DialogProgress extends JDialog implements ActionListener, ProgressL
 	 */
 	private void relabel( final String message ) {
 		try {
-			SwingUtilities.invokeAndWait( new Runnable() {
+			final Runnable runnable = new Runnable() {
 
 				@Override
 				public void run() {
 					DialogProgress.this.lblMessage.setText( message );
 				}
-			} );
+			};
+			if ( SwingUtilities.isEventDispatchThread() ) {
+				runnable.run();
+			} else {
+				SwingUtilities.invokeAndWait( runnable );
+			}
 		} catch ( final InvocationTargetException e ) {
 			e.printStackTrace();
 		} catch ( final InterruptedException e ) {
