@@ -18,7 +18,7 @@
  
 	<groupId>com.indago</groupId>
 	<artifactId>indago-ui-elements</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.3-SNAPSHOT</version>
 
 	<name>Indago UI Elements</name>
 	<description>Reusable UI elements for Indago projects.</description>
