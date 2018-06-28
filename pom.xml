@@ -98,18 +98,18 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/TrNdy/tr2d</connection>
-		<developerConnection>scm:git:git@github.com:TrNdy/tr2d</developerConnection>
+		<connection>scm:git:git://github.com/TrNdy/indago-ui-elements</connection>
+		<developerConnection>scm:git:git@github.com:TrNdy/indago-ui-elements</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/TrNdy/tr2d</url>
+		<url>https://github.com/TrNdy/indago-ui-elements</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/TrNdy/tr2d/issues</url>
+		<url>https://github.com/TrNdy/indago-ui-elements/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
-		<url>https://travis-ci.org/TrNdy/tr2d</url>
+		<url>https://travis-ci.org/TrNdy/indago-ui-elements</url>
 	</ciManagement>
 
 	<repositories>
