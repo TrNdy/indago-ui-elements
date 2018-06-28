@@ -18,7 +18,7 @@
  
 	<groupId>com.indago</groupId>
 	<artifactId>indago-ui-elements</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 
 	<name>Indago UI Elements</name>
 	<description>Reusable UI elements for Indago projects.</description>
@@ -100,7 +100,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/TrNdy/indago-ui-elements</connection>
 		<developerConnection>scm:git:git@github.com:TrNdy/indago-ui-elements</developerConnection>
-		<tag>HEAD</tag>
+		<tag>indago-ui-elements-0.1.2</tag>
 		<url>https://github.com/TrNdy/indago-ui-elements</url>
 	</scm>
 	<issueManagement>
